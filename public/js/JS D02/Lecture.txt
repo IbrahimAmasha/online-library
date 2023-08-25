@@ -1,0 +1,17 @@
+function 
+
+var sum=0
+var x 
+var y 
+
+sum=x+y
+console.log(sum)
+
+function sum(x,y){
+console.log(x+y)
+}
+
+
+sum()
+
+----------------------

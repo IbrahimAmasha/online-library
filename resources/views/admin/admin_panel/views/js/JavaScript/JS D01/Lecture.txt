@@ -1,0 +1,59 @@
+HTML ,CSS 
+
+static web Page
+
+java script 
+
+Case sensetive 
+
+abc != ABC 
+
+Embeded Langage isnit standAlons language    inside HTML 
+
+where to write js  :
+
+External 
+
+internal in side my code 
+
+event Handler 
+
+end with ;
+
+var 
+
+losly type Language 
+
+var x ="ali"
+x=5;
+
+
+
+2 ways comment code 
+
+// comment for 1 line 
+
+/*
+code line 
+
+
+*/
+
+
+reseved keyworks 
+
+var for 
+
+var _name;
+var full_name;
+var $name;
+var name2;
+var n;
+
+
+
+
+
+
+
+

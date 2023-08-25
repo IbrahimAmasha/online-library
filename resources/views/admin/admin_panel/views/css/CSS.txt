@@ -1,0 +1,62 @@
+CSS >> CassCeeding Style Sheets
+
+Static web Page >> style 
+
+propblem in HTML 
+
+1- redunduncy 
+
+2-maintaibilty 
+
+3- font max size 7   || image border color or center 
+
+4-mixing between Data and design in tables 
+
+-------------------
+ where to  bwrite css 
+1- external File 
+
+2- internal  inside <style> inside <head>
+
+3- inline in html tag attr style =""
+
+	selector {
+		prop:value;
+
+		prop:value;
+
+		prop:value;
+		}
+
+vs code   visual studio   subline 
+
+
+selectors 
+
+1- tag name selector 
+
+2- id selector 
+
+3- class selector 
+
+4- grouping selector 
+
+5- attribute seletor 
+
+universal selector 
+7 - pesudo class selectors
+
+hiraricy selector 
+
+-------------------------
+padding 
+
+Margin 
+border
+outline
+
+
+
+
+
+

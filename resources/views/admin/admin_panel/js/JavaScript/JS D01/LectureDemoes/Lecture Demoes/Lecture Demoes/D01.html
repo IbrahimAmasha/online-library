@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <script>
+        //alert("Welcome from Head ")
+        var str;
+        str = "";
+        var StrNum = "10"  // string
+        var _name = "AbdAllah"
+        //str = '';
+        //console.log("welcome from console")
+        // console.log("my name is abdallah "+"my age is 29 years old")
+        //console.log("my name is abdallah \
+        //and my age is 29 years old\
+        //and i work at ITI" )
+        //console.log('i\'m 29 years old')
+        //console.log("i\\m 29 years old")
+        //console.log("i\"m 29 years old")
+        // note : contacting string with number ==> string
+        //console.log("welcome  " + _name);
+        //console.log(`welcome ${_name}`); // ES6
+        //var num = 10;
+        //var bool = true;
+        //console.log(!bool)
+
+        var x;
+        var y = null;
+
+        var num = 20;
+
+        //if (num == 20) {
+        //    console.log(num * 3)
+        //}
+        //else {
+        //    console.log(num /2)
+
+        //}
+
+        //(num === 20 ? console.log(num * 3) : console.log(num / 2))// ternary operatoe
+        //var oldstr="ali"
+        //var str = new String("welcome to js");
+        //str.length;
+        //str.charAt(1) //e
+        //str.substring(1, 4) //elc 
+        //str.substring(2) //lcome to js
+        //str.slice(1, 4) //elc 
+        //str.slice(2) //lcome to js
+        //str.slice(-2) //js
+        //str.substr(1, 4) //elco
+        //str.indexOf("e")// return the index of first e
+        //str.lastIndexOf("e")//return the index of Last e
+        //str.toLowerCase();
+        //str.toUpperCase();
+        //replace();
+        //str.valueOf();
+        //str.split(" ")
+
+        //Number.isInteger(2.2)
+        //Number.parseInt(2.2)
+
+        //Number("123")
+        var newStr = "";
+        var str = new String("php Summer Training");
+        console.log(`before : ${str.valueOf()}`)
+        for (var i = 0; i < str.length; i++) {
+            if (str[i] == str[i].toLowerCase()) {//p==p
+               newStr+= str[i].toUpperCase();
+            }
+            else {
+                newStr +=  str[i].toLowerCase();
+            }
+
+        }
+        console.log(`before : ${newStr}`)
+
+
+
+    </script>
+    <!--<script src="External.js"></script>-->-->
+
+</head>
+<body>
+    <!--<script>
+        alert("Welcome from body")
+    </script>-->
+</body>
+</html>

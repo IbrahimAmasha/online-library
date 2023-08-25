@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <style>
+     
+       table{
+          /* border:2px solid black ;*/
+           text-align:center;
+           margin:10px auto;
+           border-radius:10%;
+           width:20%;
+           height:400px
+           border-spacing:0;
+           background-color:lightgreen;
+       }
+       input[type="text"], input[type="password"]{
+           border:0;
+           outline:0;
+           border-bottom :2px solid gray;
+           background-color:lightgreen;
+       }
+           input[type="text"]:focus, input[type="password"]:focus {
+               border-bottom: 2px solid lightblue;
+           }
+       input[type="submit"]:hover{
+           border:2px solid red;
+       }
+   </style>
+</head>
+<body bgcolor="lightblue">
+    <table>
+        <tr>
+            <td><img src="images/person.png" />   </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Enter your user Name" />
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="images/pass.png" />   </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="Enter your user password" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="LogIn" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
